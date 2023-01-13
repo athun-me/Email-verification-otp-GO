@@ -23,12 +23,12 @@ func main() {
 func sendMail(otp string) {
 
 	// Sender data.
-	from := "golangathunbrototype@gmail.com"
-	password := "cpgmhxygkwpirrqi"
+	from := "<sender-email>"
+	password := "<password>"
 
 	// Receiver email address.
 	to := []string{
-		"athunlalp@gmail.com",
+		"<reciever-email>",
 	}
 
 	// smtp server configuration.
